@@ -6,9 +6,9 @@
 
 Each lecture will be assigned to a student. For example:
 
-- **Lecture 01 → 04072413001**
-- **Lecture 02 → 04072413003**
-- **Lecture 03 → 04072413004**
+- **Lecture 01 → 04072413003**
+- **Lecture 02 → 04072413004**
+- **Lecture 03 → 04072413005**
 - and so on.
 
 We have approximately **32 or fewer lectures**, while there are **36+ students** in the class. Therefore, after the midterm examination, **two students may be assigned to a single lecture**.
@@ -39,22 +39,21 @@ ELSE
 }
 
 
-3001 = lec 1 
-3003 = lec 2
-3004 = lec 3
-3005 = lec 4
-3006 = lect 5
-3007 = lect 6
-3008 = lect 7
-3009 = lect 8
-3010 = lect 9
-3011 = lect 10
-3012 = lect 11
-3013 = lect 12
-3015 = lect 13
-3017 = lect 14
-3018 = lect 15
-3019 = lect 16
+3003 = lec 1
+3004 = lec 2
+3005 = lec 3
+3006 = lect 4
+3007 = lect 5
+3008 = lect 6
+3009 = lect 7
+3010 = lect 8
+3011 = lect 9
+3012 = lect 10
+3013 = lect 11
+3015 = lect 12
+3017 = lect 13
+3018 = lect 14
+3019 = lect 15
 more according to registration number
 
 ## Contributing to CS324 Web Dev Cheat Sheet

@@ -11,57 +11,59 @@
 8. Cloud servers are virtual servers backed by one real physical server which allows elasticity (increase/decrease no. of virtual servers based on demand).
 9. HTTP(S): (secure) protocols to transfer web data b/w client and web server. HTML: A textual markup language for creating/structuring webpages.
 
+
 ## Lecture 02
 
 ### TCP/IP Model
 
-The TCP/IP model has 4 layers:
+**4 layers:**
 
-1. **Link Layer:** Handles communication between devices on the same network using frames and MAC addresses.
-
-2. **Internet Layer:** Handles logical addressing and routing between networks using IP.
-   - IPv4: 32-bit
-   - IPv6: 128-bit
-
-3. **Transport Layer:** Provides end-to-end communication, reliability, flow control, and ports.
+1. **Link** — communication within the same network; frames, MAC addresses.
+2. **Internet** — logical addressing + routing between networks; IP.
+   - IPv4 → 32-bit
+   - IPv6 → 128-bit
+3. **Transport** — end-to-end delivery, reliability, flow control, ports.
    - TCP
    - UDP
-
-4. **Application Layer:** Provides network services directly to applications.
-   - HTTP — transfers web pages/resources
-   - SSH — secure remote access
-   - FTP — file transfer
-   - POP — downloads emails
-   - IMAP — accesses/manages emails on a server
-   - SMTP — sends emails
-   - DNS — resolves domain names to IP addresses
+4. **Application** — services used by applications.
+   - HTTP → web pages/resources
+   - SSH → secure remote access
+   - FTP → file transfer
+   - POP → receive/download email
+   - IMAP → access/manage email on server
+   - SMTP → send email
+   - DNS → domain name → IP address
 
 ### DNS
 
-**DNS (Domain Name System)** translates human-readable domain names such as `google.com` into IP addresses so devices can locate servers.
+**DNS (Domain Name System)** converts domain names into IP addresses.
 
-- **TLD (Top-Level Domain):** Last part of a domain name.
-  - **gTLD:** `.com`, `.org`, `.net`
-  - **ccTLD:** `.pk`, `.uk`
+Example: `google.com` → IP address
+
+- **TLD (Top-Level Domain)** → last part of a domain name
+- **gTLD** → `.com`, `.org`, `.net`
+- **ccTLD** → `.pk`, `.uk`
 
 ### URL
 
-A **URL (Uniform Resource Locator)** identifies the location of a resource on the Internet.
+**URL (Uniform Resource Locator)** → address of a resource on the Internet.
 
 Example:
 
 `https://example.com:8080/products?id=10`
 
-- **Protocol:** `https`
-- **Domain:** `example.com`
-- **Port:** `8080`
-- **Path:** `/products`
-- **Query:** `?id=10`
+- **Protocol** → `https`
+- **Domain** → `example.com`
+- **Port** → `8080`
+- **Path** → `/products`
+- **Query** → `?id=10`
 
 ### Port
 
-A **port** is a logical number used to identify a specific service or application on a device. Port numbers range from **0–65535**.
+A **port** identifies a specific service/application on a device.
+
+**Range:** `0–65535`
 
 ### HTTP Headers
 
-**HTTP headers** carry additional information in HTTP requests and responses, such as content type, size, and accepted formats.
+Extra information included in HTTP requests/responses, such as **content type, size, and accepted formats**.

@@ -11,3 +11,59 @@
 8. Cloud servers are virtual servers backed by one real physical server which allows elasticity (increase/decrease no. of virtual servers based on demand).
 9. HTTP(S): (secure) protocols to transfer web data b/w client and web server. HTML: A textual markup language for creating/structuring webpages.
 
+
+## Lecture 02
+
+### TCP/IP Model
+
+**4 layers:**
+
+1. **Link** — communication within the same network; frames, MAC addresses.
+2. **Internet** — logical addressing + routing between networks; IP.
+   - IPv4 → 32-bit
+   - IPv6 → 128-bit
+3. **Transport** — end-to-end delivery, reliability, flow control, ports.
+   - TCP
+   - UDP
+4. **Application** — services used by applications.
+   - HTTP → web pages/resources
+   - SSH → secure remote access
+   - FTP → file transfer
+   - POP → receive/download email
+   - IMAP → access/manage email on server
+   - SMTP → send email
+   - DNS → domain name → IP address
+
+### DNS
+
+**DNS (Domain Name System)** converts domain names into IP addresses.
+
+Example: `google.com` → IP address
+
+- **TLD (Top-Level Domain)** → last part of a domain name
+- **gTLD** → `.com`, `.org`, `.net`
+- **ccTLD** → `.pk`, `.uk`
+
+### URL
+
+**URL (Uniform Resource Locator)** → address of a resource on the Internet.
+
+Example:
+
+`https://example.com:8080/products?id=10`
+
+- **Protocol** → `https`
+- **Domain** → `example.com`
+- **Port** → `8080`
+- **Path** → `/products`
+- **Query** → `?id=10`
+
+### Port
+
+A **port** identifies a specific service/application on a device.
+
+**Range:** `0–65535`
+
+### HTTP Headers
+
+Extra information included in HTTP requests/responses, such as **content type, size, and accepted formats**.
